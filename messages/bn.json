@@ -1,0 +1,28 @@
+{
+    "Index": {
+        "title": "নেক্সট-ইন্টল অথেন্টিকেশন অ্যাপে স্বাগতম",
+        "home_link": "হোমে যান",
+        "dashboard_link": "ড্যাশবোর্ডে যান",
+        "login_link": "লগইন"
+    },
+    "HomePage": {
+        "title": "গেট স্টার্টেড",
+        "about": "Go to the about page"
+    },
+    "Login": {
+        "title": "লগইন পৃষ্ঠা",
+        "username_label": "ব্যবহারকারীর নাম",
+        "password_label": "পাসওয়ার্ড",
+        "login_button": "লগইন করুন",
+        "logout_button": "লগআউট করুন",
+        "message_success": "লগইন সফল হয়েছে!",
+        "message_error": "অবৈধ ব্যবহারকারীর নাম বা পাসওয়ার্ড।",
+        "logged_in_as": "হিসাবে লগইন করেছেন:"
+    },
+    "Dashboard": {
+        "title": "ড্যাশবোর্ড",
+        "welcome_message": "আপনার সুরক্ষিত ড্যাশবোর্ডে স্বাগতম! এই লেখাটি সার্ভার কম্পোনেন্ট দ্বারা অনুবাদ করা হয়েছে।",
+        "logout_button": "লগআউট করুন",
+        "back_to_home": "হোমে ফিরে যান"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "Index": {
+        "title": "Welcome to Next-Intl Auth App",
+        "home_link": "Go to Home",
+        "dashboard_link": "Go to Dashboard",
+        "login_link": "Login"
+    },
+    "HomePage": {
+        "title": "Get started",
+        "about": "Go to the about page"
+    },
+    "Login": {
+        "title": "Login Page",
+        "username_label": "Username",
+        "password_label": "Password",
+        "login_button": "Login",
+        "logout_button": "Logout",
+        "message_success": "Login successful!",
+        "message_error": "Invalid username or password.",
+        "logged_in_as": "Logged in as:"
+    },
+    "Dashboard": {
+        "title": "Dashboard",
+        "welcome_message": "Welcome to your secure dashboard! This text is translated by a server component.",
+        "logout_button": "Logout",
+        "back_to_home": "Back to Home"
+    }
+}

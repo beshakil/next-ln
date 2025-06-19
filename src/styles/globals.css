@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark .react-tel-input .form-control {
+    background: transparent !important;
+    border: 1.5px solid #3F3F46 !important;
+}
+
+.dark .react-tel-input .form-control:focus {
+    border-color: white !important;
+    box-shadow: 0px 0px 0px 0.5px white !important;
+}
+
+.react-tel-input .form-control {
+    border: 2px solid #E4E4E7 !important;
+}
+
+.react-tel-input .form-control:hover {
+    border-color: #A1A1A9 !important;
+    /* box-shadow: 0px 0px 0px 0.5px #A1A1A9 !important; */
+}
+
+.react-tel-input .form-control:focus {
+    border-color: #3F51B5 !important;
+    box-shadow: 0px 0px 0px 0.5px #3F51B5 !important;
+}
+
+.react-tel-input .selected-flag:hover,
+.react-tel-input .selected-flag:focus {
+    background-color: transparent !important;
+}
+
+.react-tel-input .selected-flag {
+    padding: 0 0 0 11px !important;
+
+}
+
+.labelCSS div span {
+    color: #3F51B5 !important;
+    font-size: 16px !important;
+    margin-bottom: -4px !important;
+}
+
+.labelCSSNone div span {
+    display: none !important;
+}
+
+.react-datepicker-wrapper {
+    width: 100% !important;
+}
+
+.otpInputClass div div div input{
+    width: auto !important;
+}
+
+.orb {
+    transform: translate(-50%, -150%);
+    /* opacity: 0.3; */
+    transition: transform 0.1s ease-out;
+}
+.settingsDropdownMenu ul li{
+    padding: 0px !important;
+}
+.react-datepicker-popper{
+    z-index: 100 !important;
+}
