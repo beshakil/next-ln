@@ -1,5 +1,40 @@
 @import "tailwindcss";
 
+@plugin './hero.js';
+@source '../../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+    --font-tiro: "var(--font-tiro)";
+    --color-priColor: #3F51B5;
+    --color-priHover: #303F9F;
+    --color-secColor: #03A9F4;
+    --color-secHover: #039BE5;
+    --color-danger: #F44336;
+    --color-accent: #4CAF50;
+    --color-background: #F9FAFB;
+    --color-boxBgColor: #F3FAFE;
+    --color-secBgColor: #e3e7ff;
+    --color-priTextColor: #1F2937;
+    --color-linkTextColor: #03A9F4;
+    --color-linkTextHover: #0288D1;
+    --color-secTextColor: #6B7280;
+    --color-placeholderColor: #9CA3AF;
+
+    --color-purple-50: #F9FAFB;
+    --color-purple-100: #E4D4F4;
+    --color-purple-200: #C9A9E9;
+    --color-purple-300: #AE7EDE;
+    --color-purple-400: #9353D3;
+    --color-purple-500: #3F51B5;
+    --color-purple-600: #303F9F;
+    --color-purple-700: #481878;
+    --color-purple-800: #301050;
+    --color-purple-900: #180828;
+
+}
+
 .dark .react-tel-input .form-control {
     background: transparent !important;
     border: 1.5px solid #3F3F46 !important;
@@ -48,7 +83,7 @@
     width: 100% !important;
 }
 
-.otpInputClass div div div input{
+.otpInputClass div div div input {
     width: auto !important;
 }
 
@@ -57,9 +92,11 @@
     /* opacity: 0.3; */
     transition: transform 0.1s ease-out;
 }
-.settingsDropdownMenu ul li{
+
+.settingsDropdownMenu ul li {
     padding: 0px !important;
 }
-.react-datepicker-popper{
+
+.react-datepicker-popper {
     z-index: 100 !important;
 }

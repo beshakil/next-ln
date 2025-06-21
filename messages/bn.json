@@ -1,28 +1,111 @@
 {
-    "Index": {
-        "title": "নেক্সট-ইন্টল অথেন্টিকেশন অ্যাপে স্বাগতম",
-        "home_link": "হোমে যান",
-        "dashboard_link": "ড্যাশবোর্ডে যান",
-        "login_link": "লগইন"
+  "HomePage": {
+    "topTip": "দেশের প্রথম",
+    "title": "বাড়িভাড়া ম্যানেজমেন্ট সিস্টেম",
+    "description": "আধুনিক প্রযুক্তির মাধ্যমে সম্পত্তি ব্যবস্থাপনাকে করে তুলুন আরও সহজ, দ্রুত । একটি আধুনিক সম্পত্তি ব্যবস্থাপনা প্ল্যাটফর্ম, যা ভাড়া সংগ্রহ, বিল পরিশোধ, এবং রক্ষণাবেক্ষণের কাজকে করে সহজ, নিরাপদ ও ঝামেলামুক্ত।",
+    "welcome": {
+      "title": "Willkommen auf der Startseite"
     },
-    "HomePage": {
-        "title": "গেট স্টার্টেড",
-        "about": "Go to the about page"
-    },
-    "Login": {
-        "title": "লগইন পৃষ্ঠা",
-        "username_label": "ব্যবহারকারীর নাম",
-        "password_label": "পাসওয়ার্ড",
-        "login_button": "লগইন করুন",
-        "logout_button": "লগআউট করুন",
-        "message_success": "লগইন সফল হয়েছে!",
-        "message_error": "অবৈধ ব্যবহারকারীর নাম বা পাসওয়ার্ড।",
-        "logged_in_as": "হিসাবে লগইন করেছেন:"
-    },
-    "Dashboard": {
-        "title": "ড্যাশবোর্ড",
-        "welcome_message": "আপনার সুরক্ষিত ড্যাশবোর্ডে স্বাগতম! এই লেখাটি সার্ভার কম্পোনেন্ট দ্বারা অনুবাদ করা হয়েছে।",
-        "logout_button": "লগআউট করুন",
-        "back_to_home": "হোমে ফিরে যান"
-    }
+    "contact": "Zur Kontaktseite"
+  },
+
+  "TopMenuList": {
+    "home": "হোম",
+    "toLet": "টু-লেট ",
+    "blogs": "ব্লগ",
+    "aboutUs": "আমাদের সম্পর্কে",
+    "login": "লগইন",
+    "dashboard": "ড্যাশবোর্ড"
+  },
+
+"LoginPage": {
+    "welcomeMsg": "স্বাগতম",
+    "logDes": "চালিয়ে যেতে আপনার অ্যাকাউন্টে লগইন করুন",
+    "pass": "পাসওয়ার্ড",
+    "aboutUs": "আমাদের সম্পর্কে",
+    "rememberMsg": "মনে রাখবেন",
+    "forgotPass": "পাসওয়ার্ড ভুলে গেছেন?",
+    "login": "লগইন",
+    "accountCreateMsg": "অ্যাকাউন্ট তৈরি করতে হবে? সাইন আপ করুন"
+},
+
+"SignUpPage": {
+    "RegMsg": "অ্যাকাউন্ট নিবন্ধন করুন",
+    "RegDes": "চালিয়ে যেতে আপনার অ্যাকাউন্ট তৈরি করুন",
+    "fName": "নামের প্রথম অংশ",
+    "lName": "নামের শেষ অংশ",
+    "pass": "আপনার পাসওয়ার্ড লিখুন",
+    "agreementMsg": "আমি শর্তাবলী এবং গোপনীয়তা নীতি মেনে নিচ্ছি",
+    "signUp": "নিবন্ধন করুন",
+    "switchMsg": "লগইন",
+    "accountLoginMsg": "ইতিমধ্যে একটি অ্যাকাউন্ট আছে? লগইন করুন"
+},
+
+
+  "DashBoardSideList": {
+    "dashboard": "ড্যাশবোর্ড",
+    "buildings": "বিল্ডিংস",
+    "floors": "ফ্লোর",
+    "floorDetails": "ফ্লোর ডিটেলস",
+    "assignTenant": "ভাড়াটিয়া যুক্ত",
+    "floorHistory": "ফ্লোর হিস্টোরি"
+  },
+
+"buildingList": {
+    "BuildList": "বিল্ডিং তালিকা",
+    "searchBuildings": "বিল্ডিং খুঁজুন...",
+    "buildingAdd": "অ্যাড বিল্ডিং",
+    "name": "নাম",
+    "location": "ঠিকানা",
+    "flat": "ফ্ল্যাট",
+    "rentLeft": "ফ্ল্যাট খালি আছে",
+    "view": "দেখুন",
+    "edit": "ইডিট",
+    "delete": "ডিলিট",
+    "searchResult": "আপনার অনুসন্ধানের সাথে মিলে যায় এমন কোন বিল্ডিং পাওয়া যায়নি"
+},
+
+"addEditBuilding": {
+    "addBuilding": "অ্যাড বিল্ডিং",
+    "basicInfo": "প্রাথমিক তথ্য",
+    "clickToUpload": "আপলোড করতে ক্লিক করুন",
+    "buildingName": "বিল্ডিং এর নাম",
+    "address": "ঠিকানা",
+    "streetAddress": "বাড়ি নম্বর, রোড, স্ট্রিট",
+    "selectDivision": "বিভাগ নির্বাচন",
+    "selectDistrict": "জেলা নির্বাচন",
+    "selectThana": "থানা/উপজেলা নির্বাচন",
+    "floorDetails": "ফ্লোর ভাড়ার বিবরণ",
+    "totalFloor": "মোট ফ্লোর",
+    "unitPerFloor": "প্রতি ফ্লোরে ইউনিট",
+    "billDetails": "বিলের বিবরণ",
+    "avgBaseFare": "গড় বেস ভাড়া",
+    "avgUtilityBill": "গড় ইউটিলিটি বিল",
+    "avgWaterBill": "গড় পানির বিল",
+    "avgGasBill": "গড় গ্যাস বিল",
+    "avgWastageBill": "গড় বর্জ্য বিল",
+    "avgWelfareBill": "গড় কল্যাণ বিল",
+    "avgSecurityBill": "গড় নিরাপত্তা বিল",
+    "optionalDetails": "অন্যান্য ঐচ্ছিক বিবরণ",
+    "totalParking": "মোট পার্কিং স্লট",
+    "AvgFare": "গড় ভাড়া",
+    "lift": "লিফট",
+    "generator": "জেনারেটর",
+    "security": "নিরাপত্তা",
+    "cctv": "সিসিটিভি ক্যামেরা",
+    "cancel": "বাতিল করুন",
+    "save": "সেভ করুন"
+},
+
+  "contactForm": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Abschicken"
+  },
+  "validation": {
+    "invalid": "Email ungültig",
+    "required": "Name erforderlich",
+    "min": "Message erforderlich, um mindestens 10 Zeichen zu sein"
+  }
 }

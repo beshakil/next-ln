@@ -1,28 +1,109 @@
 {
-    "Index": {
-        "title": "Welcome to Next-Intl Auth App",
-        "home_link": "Go to Home",
-        "dashboard_link": "Go to Dashboard",
-        "login_link": "Login"
+  "HomePage": {
+    "topTip": "Bangladesh's first",
+    "title": "Bangladesh's first rental management system",
+    "description": "Make property management easier, faster with modern technology. A modern property management platform that makes rent collection, bill payments, and maintenance simple, secure, and hassle-free.",
+    "welcome": {
+      "title": "Welcome to the home page"
     },
-    "HomePage": {
-        "title": "Get started",
-        "about": "Go to the about page"
-    },
-    "Login": {
-        "title": "Login Page",
-        "username_label": "Username",
-        "password_label": "Password",
-        "login_button": "Login",
-        "logout_button": "Logout",
-        "message_success": "Login successful!",
-        "message_error": "Invalid username or password.",
-        "logged_in_as": "Logged in as:"
-    },
-    "Dashboard": {
-        "title": "Dashboard",
-        "welcome_message": "Welcome to your secure dashboard! This text is translated by a server component.",
-        "logout_button": "Logout",
-        "back_to_home": "Back to Home"
-    }
+    "contact": "Go to the contact page"
+  },
+  "TopMenuList": {
+    "home": "Home",
+    "toLet": "To-Let",
+    "blogs": "Blogs",
+    "aboutUs": "About Us",
+    "login": "Login",
+    "dashboard": "Dashboard"
+  },
+  
+  "LoginPage": {
+    "welcomeMsg": "Welcome",
+    "logDes": "Log in to your account to continue",
+    "pass": "Password",
+    "aboutUs": "About us",
+    "rememberMsg": "Remember me",
+    "forgotPass": "Forgot Password?",
+    "login": "Login",
+    "accountCreateMsg": "Need to create an account? Sign Up"
+},
+
+  "SignUpPage": {
+    "RegMsg": "Register Account",
+    "RegDes": "Create your account to continue",
+    "fName": "First name",
+    "lName": "Last name",
+    "pass": "Enter your password",
+    "agreementMsg": "I agree with the Terms and Privacy Policy ",
+    "signUp": "Sign up",
+    "switchMsg": "Login",
+    "accountLoginMsg": "Already have an account? Log In"
+},
+
+  "DashBoardSideList": {
+    "dashboard": "Dashboard",
+    "buildings": "Buildings",
+    "floors": "Floors",
+    "floorDetails": "Floor Details",
+    "assignTenant": "Assign Tenant",
+    "floorHistory": "Floor History"
+  },
+
+  "buildingList": {
+    "BuildList": "বিল্ডিং তালিকা",
+    "searchBuildings": "Search buildings...",
+    "buildingAdd": "Add building",
+    "name": "Name",
+    "location": "Location",
+    "flat": "Flat",
+    "rentLeft": "Rent left",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "searchResult": "No buildings found matching your search"
+  },
+
+  "addEditBuilding": {
+    "addBuilding": "Add building",
+    "basicInfo": "Basic Information",
+    "clickToUpload": "Click to upload",
+    "buildingName": "Building name",
+    "address": "Address",
+    "streetAddress": "House no, road, street",
+    "selectDivision": "Select a division",
+    "selectDistrict": "Select a district",
+    "selectThana": "Select a Thana/Upazila",
+    "floorDetails": "Floor rent details",
+    "totalFloor": "Total floor",
+    "unitPerFloor": "Unit per floor",
+    "billDetails": "Bill Details",
+    "avgBaseFare": "Average base fare",
+    "avgUtilityBill": "Average utility bill",
+    "avgWaterBill": "Average water bill",
+    "avgGasBill": "Average gas bill",
+    "avgWastageBill": "Average wastage bill",
+    "avgWelfareBill": "Average welfare bill",
+    "avgSecurityBill": "Average security bill",
+    "optionalDetails": "Others Optional Details",
+    "totalParking": "Total parking slot",
+    "AvgFare": "Average fare",
+    "lift": "Lift",
+    "generator": "Generator",
+    "security": "Security",
+    "cctv": "CCTV camera",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+
+  "contactForm": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit"
+  },
+  "validation": {
+    "invalid": "Email invalid",
+    "required": "Name required",
+    "min": "Message required to be at least 10 characters"
+  }
 }

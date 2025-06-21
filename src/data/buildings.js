@@ -1,0 +1,61 @@
+import BuildingOne from '../assets/webp/buildingOne.webp';
+import BuildingTwo from '../assets/webp/buildingTwo.webp';
+import BuildingThree from '../assets/webp/buildingThree.webp';
+
+export const buildings = [
+    {
+        id: 1,
+        buildingName: "Santi Villa",
+        location: "152, Nogoria Bari, Uttara, Dhaka 1230",
+        division: "Dhaka",
+        district: "Dhaka",
+        thana: "Dhaka North",
+        totalFlat: 32,
+        rentLeft: 12,
+        image: BuildingOne,
+    },
+    {
+        id: 2,
+        buildingName: "Sopner Abasisthol",
+        location: "152, Nogoria Bari, Uttara",
+        division: "Dhaka",
+        district: "Dhaka",
+        thana: "Dhaka North",
+        totalFlat: 32,
+        rentLeft: 12,
+        image: BuildingTwo,
+    },
+    {
+        id: 3,
+        buildingName: "Sopnpchura",
+        location: "152, Nogoria Bari, Uttara, Dhaka 1230",
+        division: "Dhaka",
+        district: "Dhaka",
+        thana: "Dhaka North",
+        totalFlat: 32,
+        rentLeft: 12,
+        image: BuildingThree,
+    },
+    {
+        id: 4,
+        buildingName: "Sopnpchura",
+        location: "152, Nogoria Bari, Uttara, Dhaka 1230",
+        division: "Dhaka",
+        district: "Dhaka",
+        thana: "Dhaka North",
+        totalFlat: 32,
+        rentLeft: 12,
+        image: BuildingThree,
+    },
+    {
+        id: 5,
+        buildingName: "Sopnpchura",
+        location: "152, Nogoria Bari, Uttara, Dhaka 1230",
+        division: "Dhaka",
+        district: "Dhaka",
+        thana: "Dhaka North",
+        totalFlat: 32,
+        rentLeft: 12,
+        image: BuildingThree,
+    },
+];

@@ -1,9 +1,13 @@
-import { useTranslations } from 'next-intl';
-import React from 'react'
+import React, { Suspense } from 'react';
+import Loading from '../../../components/Loading';
+import DashboardHomeMain from '../../../components/Dashboard/DashBoardHome/DashboardHomeMain';
 
-export default function Dashboard() {
-    const t = useTranslations('Dashboard');
-    return (
-        <div className='text-2xl font-bold text-center mt-10'>{t('title')}</div>
-    )
-}
+const page = () => {
+  return (
+    <Suspense fallback={<Loading />}>
+      <DashboardHomeMain />
+    </Suspense>
+  );
+};
+
+export default page;

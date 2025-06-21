@@ -9,15 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@heroui/react": "^2.7.10",
+    "@heroui/checkbox": "^2.3.21",
+    "@heroui/react": "^2.8.0-beta.10",
+    "@heroui/system": "^2.4.18",
+    "@iconify/react": "^6.0.0",
+    "autoprefixer": "^10.4.21",
     "framer-motion": "^12.18.1",
+    "i": "^0.3.7",
     "js-cookie": "^3.0.5",
     "next": "15.3.3",
     "next-intl": "^4.1.0",
     "next-themes": "^0.4.6",
+    "npm": "^11.4.2",
     "postcss": "^8.5.6",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-apexcharts": "^1.7.0",
+    "react-datepicker": "^8.4.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "react-multi-carousel": "^2.8.6",
+    "react-phone-input-2": "^2.15.1",
+    "react-select": "^5.10.1",
+    "react-toastify": "^11.0.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
