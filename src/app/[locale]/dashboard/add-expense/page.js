@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import Loading from '../../../../components/Loading';
-import CreateExpenseHome from '../../../../components/Dashboard/expense/CreateExpenseHome';
+import CreateExpenseHome from '../../../../components/Dashboard/Expense/CreateExpenseHome';
 
 const page = () => {
   return (
