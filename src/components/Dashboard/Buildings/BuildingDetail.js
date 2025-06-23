@@ -50,7 +50,7 @@ const BuildingDetail = ({ buildings }) => {
                 <div className='sm:w-[30%] w-full '>
                     <div
                         key={building.id}
-                        className="w-auto sm:mt-5 mt-1.5 bg-white border border-gray-200 sm:p-5 p-3 border border-gray-200-gray-200 rounded-lg dark:bg-gray-900 dark:border border-gray-200-gray-700 mb-0 sm:mb-5"
+                        className="w-auto sm:mt-5 mt-1.5 bg-white border border-gray-200 sm:p-5 p-3 border-gray-200-gray-200 rounded-lg dark:bg-gray-900 dark:border border-gray-200-gray-700 mb-0 sm:mb-5"
                     >
                         <div className='w-auto flex sm:block gap-3 items-center'>
                             <Link href={`/dashboard/buildings/${building.id}`} className="border border-gray-200-lg sm:w-full">
@@ -62,7 +62,7 @@ const BuildingDetail = ({ buildings }) => {
                                     alt={`Picture of ${building.buildingName}`}
                                     style={{
                                         objectFit: "cover",
-                                        border border-gray-200Radius: "12px",
+                                        borderRadius: "12px",
                                     }}
                                     loading="lazy"
                                 />

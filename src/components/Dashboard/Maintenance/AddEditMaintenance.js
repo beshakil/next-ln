@@ -154,7 +154,7 @@ const AddEditMaintenance = ({ isOpen, onOpenChange, onConfirm, selectedMaintenan
                                                     alt={`Picture of building`}
                                                     style={{
                                                         objectFit: "cover",
-                                                        border border-gray-200Radius: "12px",
+                                                         borderRadius: "12px",
                                                     }}
                                                     loading="lazy"
                                                 />

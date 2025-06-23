@@ -98,9 +98,9 @@ const ProfileSettingsTab = () => {
                                     inputStyle={{
                                         width: '100%',
                                         height: '40px',
-                                        border border-gray-200Radius: '8px',
+                                        borderRadius: '8px',
                                     }}
-                                    buttonStyle={{ border border-gray-200Radius: "8px 0px 0px 8px" }}
+                                    buttonStyle={{ borderRadius: "8px 0px 0px 8px" }}
                                     country={'bd'}
                                     disableDropdown={true}
                                     placeholder="Enter your phone number"

@@ -88,7 +88,7 @@ export default function AddEditTenants({ isOpen, onOpen, onOpenChange, selectedT
                                         alt={`Picture of building`}
                                         style={{
                                             objectFit: "cover",
-                                            border border-gray-200Radius: "12px",
+                                        borderRadius: "12px",
                                         }}
                                         loading="lazy"
                                     />

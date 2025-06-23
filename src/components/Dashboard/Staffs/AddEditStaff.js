@@ -270,7 +270,7 @@ const AddEditStaff = ({ isOpen, onOpenChange, onConfirm, selectedStaff }) => {
                                                     alt={`Picture of building`}
                                                     style={{
                                                         objectFit: "cover",
-                                                        border border-gray-200Radius: "12px",
+                                                       borderRadius: "12px",
                                                     }}
                                                     loading="lazy"
                                                 />

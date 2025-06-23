@@ -178,15 +178,15 @@ const CreateExpenseHome = () => {
                     <div className="flex sm:flex-row flex-col gap-3 w-full">
                         <div className="w-full">
                             <p className="text-priColor dark:text-purple-300 text-base">Tenant/Payer</p>
-                            <SelectOptionComponent options={tenantOptions} placeholder="Select a user" menuPlacement="bottom" 
+                            <SelectOptionComponent options={tenantOptions} placeholder="Select a user" menuPlacement="bottom"
                             // onChange={(e) => console.log(e)}
-                             />
+                            />
                         </div>
                         <div className="w-full">
                             <p className="text-priColor dark:text-purple-300 text-base">Related invoice</p>
-                            <SelectOptionComponent options={relatedInvoiceList} placeholder="Select related invoice" menuPlacement="bottom" 
+                            <SelectOptionComponent options={relatedInvoiceList} placeholder="Select related invoice" menuPlacement="bottom"
                             // onChange={(e) => console.log(e)}
-                             />
+                            />
                         </div>
                         <div className="w-full">
                             <p className="text-priColor dark:text-purple-300 text-base">Reference</p>
@@ -228,7 +228,7 @@ const CreateExpenseHome = () => {
                                 alt={`Picture of building`}
                                 style={{
                                     objectFit: "cover",
-                                    border border-gray-200Radius: "12px",
+                                    borderRadius: "12px",
                                 }}
                                 loading="lazy"
                             />

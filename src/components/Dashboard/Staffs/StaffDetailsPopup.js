@@ -31,7 +31,7 @@ const StaffDetailsPopup = ({ isOpen, onOpenChange, selectedStaff }) => {
                                             alt={`Staff photo`}
                                             style={{
                                                 objectFit: "cover",
-                                                border border-gray-200Radius: "12px",
+                                                 borderRadius: "12px",
                                             }}
                                             loading="lazy"
                                         />

@@ -68,22 +68,6 @@ export default function AddEditFloor({ isOpen, onOpen, onOpenChange, selectedFlo
     //     }
     // }, []);
 
-
-    const customStyles = {
-        control: (base, state) => ({
-            ...base,
-            border border-gray-200: state.isFocused ? '2px solid #A1A1A9' : '2px solid #E4E4E7',
-            '&:hover': {
-                border border-gray-200: state.isFocused ? '2px solid black' : '2px solid #A1A1A9'
-            },
-            fontSize: '14px',
-            cursor: 'pointer',
-            border border-gray-200Radius: '8px',
-            border border-gray-200Color: state.isFocused ? '#A1A1A9' : '#E4E4E7',
-            boxShadow: state.isFocused ? 'none' : 'none',
-        })
-    }
-
     return (
         <Modal isOpen={isOpen} isDismissable={false} isKeyboardDismissDisabled={true} size={"sm"} placement={"center"} onOpenChange={onOpenChange}>
             <ModalContent className='m-5'>
