@@ -1,5 +1,6 @@
-import { Link } from "@heroui/link";
+
 import { getTranslations } from "next-intl/server";
+import Link from "next/link";
 
 export default async function AboutPage() {
   const t = await getTranslations("HomePage");
