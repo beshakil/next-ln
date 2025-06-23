@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import Loading from '../../../../../components/Loading';
 import ViewIncomeDetailsHome from '../../../../../components/Dashboard/Income/ViewIncomeDetailsHome';
-import ViewInExpenseDetailsHome from '../../../../../components/Dashboard/expense/ViewInExpenseDetailsHome';
+import ViewInExpenseDetailsHome from '../../../../../components/Dashboard/Expense/ViewInExpenseDetailsHome';
 
 const incomeData = [
     {
